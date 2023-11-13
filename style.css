@@ -1,0 +1,76 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@100;200;400;600&display=swap');
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
+
+
+body{
+  background-color:rgb(253, 250, 245);
+  font-family: Poppins;
+  color: rgb(59, 59, 59)
+}
+
+h1,h2,h3,h4,h5{
+  color: rgb(37, 37, 37);
+  line-height: 110 px;
+  /* font-size:small */
+}
+
+a{
+  text-decoration: none;
+  color: #e392fe;
+  transition: 0.5s ease;
+}
+
+a:hover{
+  color: #70477e;
+  font-size: 30px;
+}
+
+#profile-pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+ul{
+  text-align: center;
+  padding-left: 0;
+  padding-right: 3%;
+}
+li{
+  display: inline;
+}
+
+.card {
+  background-color: #EEEEEE;
+  padding: 50px;
+  margin: 25px auto;
+  border-radius: 25px;
+  border: 1px solid #570A57;
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+  width: 500px;
+}
+
+.container{
+  text-align :center
+}
